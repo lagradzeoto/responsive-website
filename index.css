@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    background-color: black;
+    padding-right: 30px;
+}
+
+.logo{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    gap: 10px;
+    align-items: center;
+}
+
+.zedaicon{
+    color: #EDECEC;
+    font-size: 28px;
+    visibility: hidden;
+
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+h5{
+    font-size: 14px;
+    color: aliceblue;
+
+}
+
+.logoright{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.navigation ul{
+    display: flex;
+    gap: 35px;
+
+}
+
+a{
+    color: aliceblue;
+    
+}
+
+.navsecond{
+    display: flex;
+    padding-inline: 35px;
+    justify-content: space-between;
+
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    height: 77.2px;
+    gap: 60px;
+
+}
+
+.left div button i{
+    color: aliceblue;
+}
+
+.inputbox{
+
+   position: relative;
+
+}
+
+input{
+    height: 43px;
+    width: 287px;
+    border-radius: 25px 0px 0px 25px;
+    border: none;
+    background-color:#EDECEC;
+    padding-left: 25px;
+}
+
+.inputbox button{
+    border-radius: 0px 25px 25px 0px;
+    width: 76px;
+    height: 43px;
+    background-color: rgb(108, 38, 245);
+    position: absolute;
+    border: none;
+}
+
+.left h1{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.right{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    font-size: 17px;
+    padding-right: 10px;
+    
+}
+
+.lasticon{
+    display: flex;
+    gap: 5px;
+}
+
+.kalati{
+    display: flex;
+    gap: 5px;
+}
+
+.null{
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.navthird{
+    display: flex;
+    align-items: center;
+    height: 42px;
+    background-color: rgb(237, 236, 236);
+    padding-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.navthird li{
+    font-size: 13px;
+    list-style: none;
+}
+
+.navthird ul{
+    display: flex;
+    gap: 27px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card li{
+    width: 0px;
+    list-style: none;
+}
+
+.card ul{
+    gap: 20px;
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+
+}
+
+.card div{
+    display: flex;
+}
+
+.price{
+    color: rgb(103, 3, 196);
+    font-size: 20px;
+    padding-inline: 15px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.old{
+    text-decoration: line-through;
+    position: absolute;
+    left: 70px;
+    
+}
+
+.card{
+    position: relative;
+    border: 0.6px solid rgb(117, 107, 107);
+    width: 256px;
+    height: 417px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.card:hover img{
+    transform: scale(1.05);
+}
+
+.card:hover{
+    box-shadow: 0 0 15px 2px grey;
+    
+}
+
+.card > p{
+    width: 70%;
+    font-size: 17px;
+    padding-inline: 15px;
+    position: relative;
+    top: -20px;
+}
+
+.card i{
+    padding-inline: 15px;
+    color: rgb(108, 38, 245);
+    font-size: 13px;
+} 
+
+.sale{ 
+    position: absolute;
+    background-color: rgb(189, 8, 8);
+    font-size: 14px;
+    padding: 7px 13px;
+    color: #EDECEC;
+    border-radius: 14px;
+    left: 10px;
+    top: 10px;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 284px;
+    transition: 0.3s;
+    position: relative;
+    z-index: -1;
+}
+
+.qardebi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 180px;
+    font-family: 'Roboto', sans-serif;
+}
+
+section{
+  margin-top: 200px;
+  margin-bottom: 230px;
+}
+
+.contactus{
+    text-align: center;
+}
+
+.qard1{
+    border: 2px solid grey;
+    width: 370px;
+    height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    position: relative;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+.qard1:hover{
+  background-color: rgb(219, 66, 132);
+  color: white;
+  box-shadow: 10px 5px 5px 10px;
+}
+
+
+.qard1 button:hover{
+  background-color: white;
+  transition: 0.8s;
+  color: rgb(161, 21, 117);
+}
+.qard1 button:hover a{
+  color: rgb(161, 21, 117);
+  
+}
+
+.fa-brands{
+    width: auto;
+    font-size: 70px;
+    display: flex;
+}
+
+.qardebi h1{
+    display: flex;
+    justify-content: center;
+}
+
+.qardebi p{
+  height: 110px;
+  width: 278px;
+  text-align: center;
+}
+
+.qard1 button{ 
+   width: 250px;   
+   height: 48px;
+   background-color: black;
+   border-radius:25px;
+   font-size: 18px;
+   
+}  
+
+button a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerleft{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.footerright{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+   
+}
+
+.footerbutton{
+   background-color:rgb(114, 15, 208);
+   border-radius: 25px;
+   width: 300px;
+   height: 50px;
+   color: #EDECEC;
+   position: absolute;
+   bottom: -90px;
+   
+
+}
+ 
+
+.footer li{
+   list-style: none;
+   font-weight: 300;
+}
+
+.footer h1{
+    font-size: 25px;
+}
+
+.weheretohelp{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.weheretohelp p{
+    font-weight: 300;
+    line-height: 30px ;
+}
+
+.weheretohelp h1{
+    position: relative;
+    top: -10px;
+}
+
+.openinghours li{
+    line-height: 30px;
+
+}
+
+.openinghours, .storelocation{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.storelocation li{
+    line-height: 30px;
+}
+
+.inputs{
+    display: flex;
+    gap: 40px;
+    font-weight: 300;
+    
+    flex-direction: column;
+    
+}
+
+.columndiv{
+    display: flex;
+    gap: 40px;
+    
+}
+.inputs input{
+    border-radius: 0px;
+    border-bottom: 1px solid;
+    background-color: white;
+    outline: none;
+}
+
+
+.inputleft, .inputright{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.inputrightchild{
+    display: flex;
+    flex-direction: column;
+}
+
+.lastinput{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.inputleft input{
+   background-color: white;
+   border: black;
+   display: flex;
+   border-radius: 0px;
+   border-bottom: 1px solid;
+}
+
+.lastinput textarea{
+   border: none;
+   border-bottom: 1px solid;
+   resize: none;
+   outline: none;
+}
+
+.qvedaicon{
+    font-size: 28px;
+    visibility: hidden;
+
+}
+
+@media screen and (max-width:1070px) { 
+    .logoright ul, .navthird ul{
+        display: none;
+    }
+    .navsecond .inputbox input{
+        display: none;
+    }
+    .navsecond .inputbox button{
+        border-radius: 30px;
+        top: -20px;
+    }
+    .zedaicon, .qvedaicon{
+        visibility: visible;
+
+    }
+    .qardebi{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 250px;
+        gap: 100px;
+    }
+    .footerbutton{
+        bottom: -120px;
+    
+    }
+    .columndiv{
+        flex-direction: column;
+    }
+    
+}
+
+
